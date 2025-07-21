@@ -58,20 +58,62 @@
 
 <body>
 
-    <div class="main-header">
+    <div class="main-header main-header-four">
+        <!-- Header Topbar-->
+        <div class="header-topbar topbar-four text-center bg-transparent">
+            <div class="container-fluid">
+                <div class="d-flex align-items-center justify-content-between flex-wrap">
+                    <div class="d-flex align-items-center flex-wrap">
+                        <p class="d-flex align-items-center fs-14 mb-2 me-3 "><i class="isax isax-call5 me-2"></i>Mobile
+                            No : +91 9643131575</p>
+                        <p class="mb-2 d-flex align-items-center fs-14"><i
+                                class="isax isax-message-text-15 me-2"></i>Email : <a
+                                href="mailto:Support@Tap4tour.com">Support@Tap4tour.com</a></p>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <div class="dropdown mb-2">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                <i class="fa-solid fa-user"></i> Travel Agent Zone
+                            </a>
+                            <ul class="dropdown-menu p-2 mt-2">
+                                <li><a class="dropdown-item rounded" href="javascript:void(0);"><i
+                                            class="fa-solid fa-user"></i> Join For Free</a></li>
+                                <li><a class="dropdown-item rounded" href="javascript:void(0);"><i
+                                            class="fa-solid fa-lock"></i> Sign In</a></li>
+                                <li><a class="dropdown-item rounded" href="javascript:void(0);"><i
+                                            class="fa-solid fa-dumpster-fire"></i> Add Your Packages
+                                        Free</a></li>
+                                <li><a class="dropdown-item rounded" href="javascript:void(0);"><i
+                                            class="fa-solid fa-pen-to-square"></i> Travel Leads</a></li>
+                                <li><a class="dropdown-item rounded" href="javascript:void(0);"><i
+                                            class="fa-solid fa-tags"></i> Advertise with us</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="javascript:void(0);" class="ms-5">
+                            <i class="fa-solid fa-square-plus"></i> Add Your Packages
+                            FREE
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Header Topbar-->
+
         <!-- Header -->
-        <header class="header-five wow fadeInDown" data-wow-delay="0.3">
-            <div class="container">
+        <header class="header-four">
+            <div class="container-fluid">
                 <div class="offcanvas-info">
                     <div class="offcanvas-wrap">
                         <div class="offcanvas-detail">
                             <div class="offcanvas-head">
                                 <div class="d-flex justify-content-between align-items-center mb-3">
                                     <a href="index.html" class="black-logo-responsive">
-                                        <img src="assets/img/logo.png" alt="logo-img">
+                                        <img src="assets/img/logo-dark.svg" alt="logo-img">
                                     </a>
                                     <a href="index.html" class="white-logo-responsive">
-                                        <img src="assets/img/logo.png" alt="logo-img">
+                                        <img src="assets/img/logo.svg" alt="logo-img">
                                     </a>
                                     <div class="offcanvas-close">
                                         <i class="ti ti-x"></i>
@@ -81,7 +123,7 @@
                                     <h6 class="fs-16 fw-medium">Wishlist</h6>
                                     <div class="d-flex align-items-center">
                                         <div class="fav-dropdown">
-                                            <a href="javascript:void(0);" class="position-relative">
+                                            <a href="wishlist.html" class="position-relative">
                                                 <i class="isax isax-heart"></i><span
                                                     class="count-icon bg-secondary text-gray-9">0</span>
                                             </a>
@@ -141,8 +183,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div><a href="javascript:void(0);" class="text-white btn btn-dark w-100 mb-2"
-                                            data-bs-toggle="modal" data-bs-target="#login-modal">Sign In</a></div>
+                                    <div class="btn btn-dark w-100 mb-3"><a href="javascript:void(0);"
+                                            class="text-white" data-bs-toggle="modal" data-bs-target="#login-modal">Sign
+                                            In</a> / <a href="javascript:void(0);" class="text-white"
+                                            data-bs-toggle="modal" data-bs-target="#register-modal">Sign Up</a></div>
                                 </div>
                             </div>
                         </div>
@@ -161,23 +205,33 @@
                         </div>
                         <nav id="mobile-menu">
                             <ul class="main-nav">
-                                <li class="active">
+                                <li class=" active">
                                     <a href="./index.html">Home</a>
                                 </li>
-                                <li class="">
+                                <li>
                                     <a href="./about-us.html">About Us</a>
                                 </li>
-                                <li class="">
+                                <li>
+                                    <a href="javascript:void(0);">Domestic</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">International</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Travel Attraction</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Car Rental</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">Hotels</a>
+                                </li>
+                                <li>
                                     <a href="./contact-us.html">Contact Us</a>
                                 </li>
                             </ul>
                         </nav>
                         <div class="header-btn d-flex align-items-center">
-                            <div class="cart-dropdown me-3">
-                                <a href="javascript:void(0);" class="position-relative">
-                                    <i class="isax isax-user"></i>
-                                </a>
-                            </div>
                             <div class="me-3">
                                 <a href="javascript:void(0);" id="dark-mode-toggle" class="theme-toggle">
                                     <i class="isax isax-moon"></i>
@@ -187,14 +241,15 @@
                                 </a>
                             </div>
                             <div class="fav-dropdown me-3">
-                                <a href="javascript:void(0);" class="position-relative">
+                                <a href="wishlist.html" class="position-relative">
                                     <i class="isax isax-heart"></i><span
                                         class="count-icon bg-secondary text-gray-9">0</span>
                                 </a>
                             </div>
-                            <div>
-                                <a href="tel:+919643131575" class="text-white btn btn-dark w-100">+91 9643131575</a>
-                            </div>
+                            <a href="" class="btn btn-dark d-inline-flex align-items-center me-3"><i
+                                    class="isax isax-lock me-2"></i>Add Your Listing</a>
+                            <a href="" class="btn btn-dark d-inline-flex align-items-center me-0"><i
+                                    class="isax isax-lock me-2"></i>Sign Up</a>
                             <div class="header__hamburger d-xl-none my-auto">
                                 <div class="sidebar-menu">
                                     <i class="isax isax-menu5"></i>
@@ -208,7 +263,7 @@
         <!-- /Header -->
     </div>
     <!-- Breadcrumb -->
-    <div class="breadcrumb-bar breadcrumb-bg-01 text-center">
+    <div class="breadcrumb-bar breadcrumb-bg-05 text-center">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-12">
@@ -242,16 +297,8 @@
                                 <a href="javascript:void(0)" class="btn btn-warning text-gray-9">Add You Listings</a>
                             </div>
                         </div>
-                        <div class="about-img">
+                        <div class="">
                             <img src="assets/img/about.png" alt="about">
-                        </div>
-                        <div class="about-progress d-inline-flex align-items-center">
-                            <img src="assets/img/icons/progress-icon.svg" alt="icon">
-                            <div class="ms-2">
-                                <p class="fs-10 mb-1">Today’s Earnings</p>
-                                <h6 class="fs-13">$2500</h6>
-                            </div>
-                            <a href="wallet.html" class="btn btn-teal btn-sm fw-normal ms-4">Withdraw</a>
                         </div>
                     </div>
                 </div>
@@ -535,43 +582,91 @@
                         <!-- /Team Item-->
                     </div>
                 </div>
-                <div class="text-center view-all wow fadeInUp">
+                <div class="text-center view-all wow fadeInUp mb-5">
                     <a href="team.html" class="btn btn-dark">View All Experts<i
                             class="isax isax-arrow-right-3 ms-2"></i></a>
                 </div>
                 <div class="col-md-12">
-                    <div class="counter-wrap">
-                        <div class="row">
-                            <div class="col-lg-3 col-md-6">
-                                <div class="counter-item mb-4">
-                                    <h6 class="mb-1 d-flex align-items-center justify-content-center text-teal"><i
-                                            class="isax isax-global5 me-2"></i>Destinations Worldwide</h6>
-                                    <h3 class="display-6"><span class="counter">50</span>+</h3>
+                    <!-- Benefit Section -->
+                    <section class="section benefit-section bg-light-300">
+                        <div class="container">
+                            <div class="row justify-content-center">
+                                <div class="col-lg-6 text-center wow fadeInUp" data-wow-delay="0.2s">
+                                    <div class="section-header text-center">
+                                        <h2 class="mb-2">Why <span
+                                                class="text-primary  text-decoration-underline">Tap4Tour</span> ?
+                                        </h2>
+                                        <p class="sub-title">Tap4Tour, a tour operator specializing in dream
+                                            destinations, offers a variety of benefits for travelers.</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6">
-                                <div class="counter-item mb-4">
-                                    <h6 class="mb-1 d-flex align-items-center justify-content-center text-purple"><i
-                                            class="isax isax-calendar-2 me-2"></i>Booking Completed</h6>
-                                    <h3 class="display-6"><span class="counter">7000</span>+</h3>
+                            <div class="row g-4">
+                                <div class="col-sm-6 col-lg-3 d-flex">
+                                    <div class="card benefit-card mb-0 flex-fill wow fadeInUp" data-wow-delay="0.2s">
+                                        <div class="card-body text-center">
+                                            <div class="benefit-icon mb-2 bg-secondary text-gray-9 mx-auto">
+                                                <i class="isax isax-lock-1"></i>
+                                            </div>
+                                            <h5 class="mb-2">Your Reliable Travel Partner</h5>
+                                            <p class="mb-0">We don’t just plan trips—we guide you like a true companion.
+                                                Backed by experienced travel experts of
+                                                destinations, we ensure you travel with confidence.</p>
+                                            <span class="icon-view text-secondary"><i
+                                                    class="isax isax-lock-1"></i></span>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6">
-                                <div class="counter-item mb-4">
-                                    <h6 class="mb-1 d-flex align-items-center justify-content-center text-pink"><i
-                                            class="isax isax-tag-user5 me-2"></i>Client Globally</h6>
-                                    <h3 class="display-6"><span class="counter">100</span>+</h3>
+                                <div class="col-sm-6 col-lg-3 d-flex">
+                                    <div class="card benefit-card mb-0 flex-fill wow fadeInUp" data-wow-delay="0.2s">
+                                        <div class="card-body text-center">
+                                            <div class="benefit-icon mb-2 bg-orange text-white mx-auto">
+                                                <i class="isax isax-magicpen"></i>
+                                            </div>
+                                            <h5 class="mb-2">We Hear You First</h5>
+                                            <p class="mb-0">Your journey, your way. At Tap4Tour, we listen to your
+                                                travel needs and customize solutions that suit your preferences, budget,
+                                                and dream destinations.</p>
+                                            <span class="icon-view text-orange"><i
+                                                    class="isax isax-magicpen"></i></span>
+                                        </div>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="col-lg-3 col-md-6">
-                                <div class="counter-item mb-4">
-                                    <h6 class="mb-1 d-flex align-items-center justify-content-center text-info"><i
-                                            class="isax isax-status-up5 me-2"></i>Providers Registered</h6>
-                                    <h3 class="display-6"><span class="counter">89</span>+</h3>
+                                <div class="col-sm-6 col-lg-3 d-flex">
+                                    <div class="card benefit-card mb-0 flex-fill wow fadeInUp" data-wow-delay="0.2s">
+                                        <div class="card-body text-center">
+                                            <div class="benefit-icon mb-2 bg-purple text-white mx-auto">
+                                                <i class="isax isax-receipt-add"></i>
+                                            </div>
+                                            <h5 class="mb-2">Unforgettable Travel Moments</h5>
+                                            <p class="mb-0">From serene escapes to action-packed adventures, we make
+                                                sure every trip is filled with meaningful and memorable experiences that
+                                                stay with you forever.</p>
+                                            <span class="icon-view text-purple"><i
+                                                    class="isax isax-receipt-add"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 col-lg-3 d-flex">
+                                    <div class="card benefit-card mb-0 flex-fill wow fadeInUp" data-wow-delay="0.2s">
+                                        <div class="card-body text-center">
+                                            <div class="benefit-icon mb-2 bg-teal text-white mx-auto">
+                                                <i class="isax isax-location-tick"></i>
+                                            </div>
+                                            <h5 class="mb-2">Hassle-Free & Simple</h5>
+                                            <p class="mb-0">We make travel as easy as it should be—smooth bookings,
+                                                timely support, and stress-free itineraries. Just pick your destination,
+                                                and we’ll handle the rest.</p>
+                                            <span class="icon-view text-teal"><i
+                                                    class="isax isax-location-tick"></i></span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
+                    <!-- /Benefit Section -->
+
                 </div>
             </div>
             <div class="about-bg">
@@ -693,6 +788,14 @@
                             </div>
                         </div>
                     </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="footer-img">
+                            <img src="assets/img/bg/footer.svg" class="img-fluid" alt="img">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -703,32 +806,88 @@
                     <div class="col-md-12">
                         <div class="d-flex align-items-center justify-content-between flex-wrap">
                             <p class="fs-14">Copyright &copy; 2025. All Rights Reserved, <a href="javascript:void(0);"
-                                    class="text-primary fw-medium">Tap4Tour.com</a></p>
+                                    class="text-primary fw-medium">Tab4Tour</a></p>
                             <div class="d-flex align-items-center">
                                 <ul class="social-icon">
                                     <li>
-                                        <a href="javascript:void(0);"><i class="fa-brands fa-facebook"></i></a>
+                                        <a style="background: linear-gradient( #f9ce34,  #ee2a7b, #6228d7);"
+                                            href="javascript:void(0);"><i
+                                                class="fa-brands fa-instagram text-white"></i></a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0);"><i class="fa-brands fa-x-twitter"></i></a>
+                                        <a style="background-color: blue;" href="javascript:void(0);"><i
+                                                class="fa-brands fa-facebook text-white"></i></a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0);"><i class="fa-brands fa-instagram"></i></a>
+                                        <a style="background-color: red;" href="javascript:void(0);"><i
+                                                class="fa-brands fa-youtube text-white"></i></a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0);"><i class="fa-brands fa-linkedin"></i></a>
+                                        <a style="background-color: #f9ce34;" href="javascript:void(0);"><i
+                                                class="fa-brands fa-snapchat text-white"></i></a>
                                     </li>
                                     <li>
-                                        <a href="javascript:void(0);"><i class="fa-brands fa-pinterest"></i></a>
+                                        <a style="background-color: #3778B1;" href="javascript:void(0);"><i
+                                                class="fa-brands fa-linkedin text-white"></i></a>
+                                    </li>
+                                    <li>
+                                        <a style="background-color: #000;" href="javascript:void(0);"><i
+                                                class="fa-brands fa-x-twitter text-white"></i></a>
                                     </li>
                                 </ul>
                             </div>
+                            <ul class="card-links">
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <img src="assets/img/icons/card-01.svg" alt="img">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <img src="assets/img/icons/card-04.svg" alt="img">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <img src="assets/img/icons/card-05.svg" alt="img">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <img src="assets/img/icons/card-06.svg" alt="img">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <img src="assets/img/icons/apple-pay.svg" width="50" alt="img">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <img src="assets/img/icons/amazonpay.svg" width="30" alt="img">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <img src="assets/img/icons/Google_Pay.svg" width="50" alt="img">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <img src="assets/img/icons/ssl-secured.svg" width="50" alt="img">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="javascript:void(0);">
+                                        <img src="assets/img/icons/secure.svg" width="50" alt="img">
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- /Footer Bottom -->
 
     </footer>
     <!-- /Footer -->
