@@ -15651,7 +15651,7 @@ footer.footer-three .footer-bottom .policy-links li a:hover {
 ============================*/
 .hero-section-five {
   position: relative;
-  padding: 100px 0 140px;
+  padding: 10px 0 140px;
   background-image: url(../img/banner/cruise-banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -15676,12 +15676,12 @@ footer.footer-three .footer-bottom .policy-links li a:hover {
 }
 
 .hero-section-five .hero-content .banner-content {
-  padding: 110px 0 40px;
+  padding: 10px 0 40px;
 }
 
 @media (max-width: 991.98px) {
   .hero-section-five .hero-content .banner-content {
-    padding: 50px 0;
+    padding: 20px 0;
   }
 }
 
