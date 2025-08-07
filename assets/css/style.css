@@ -12144,7 +12144,7 @@ footer.footer-three .footer-bottom .policy-links li a:hover {
   32.breadcrumb
 ============================*/
 .breadcrumb-bar {
-  padding: 150px 0 40px;
+  padding: 0px 0 40px;
   position: relative;
   z-index: 1;
 }
@@ -13922,9 +13922,8 @@ footer.footer-three .footer-bottom .policy-links li a:hover {
   height: 24px;
 }
 
-.support-item h5 {
-  white-space: nowrap;
-  color: #FFF;
+.support-item img {
+  max-width: 121px;
 }
 
 .expert-item {
@@ -14373,6 +14372,12 @@ footer.footer-three .footer-bottom .policy-links li a:hover {
   -webkit-transition: all 0.9s;
   -ms-transition: all 0.9s;
   transition: all 0.9s;
+}
+
+@media (width<768px) {
+  .category-wrap .category-img img {
+    max-width: 60%;
+  }
 }
 
 .category-wrap .category-img .badge {
